@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio pessoal de José Carlos, desenvolvedor Front-end.">
+    <meta name="theme-color" content="#0f172a">
+    <title>José Carlos | Front-end Developer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="logo" href="#home" aria-label="Portfólio do José Carlos - página inicial">
+                Portfólio do <span>José Carlos</span>
+            </a>
+
+            <button class="menu-toggle" type="button"
+                    aria-label="Abrir menu"
+                    aria-expanded="false"
+                    aria-controls="main-nav">
+                <i class="fa-solid fa-bars" aria-hidden="true"></i>
+            </button>
+
+            <nav id="main-nav" class="main-nav" aria-label="Navegação principal">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#cursos">Cursos</a></li>
+                    <li><a href="#visitas">Visitas</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero" aria-labelledby="hero-title">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <p class="eyebrow">Olá, eu sou</p>
+                    <h1 id="hero-title">José Carlos</h1>
+                    <h2>Front-end Developer</h2>
+                    <p>
+                        Desenvolvedor apaixonado por criar interfaces modernas,
+                        responsivas e experiências digitais incríveis.
+                    </p>
+
+                    <div class="buttons">
+                        <a href="#visitas" class="btn">Ver minhas visitas</a>
+                        <a href="#contato" class="btn btn-outline">Entrar em contato</a>
+                    </div>
+
+<div class="social">
+    <a href="https://seulink.com/curriculo" target="_blank" rel="noopener noreferrer">
+        <i class="fas fa-graduation-cap"></i>
+    </a>
+
+    <a href="https://facebook.com/share/1CuyJDtDeM" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-facebook"></i>
+    </a>
+
+    <a href="https://www.instagram.com/jose_carlos_lima10?stkn=MWw0c2oxdGh0NmZ3bQ==" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-instagram"></i>
+    </a>
+</div>
+                </div>
+
+                <div class="hero-image">
+                    <img src="assets/profile.jpg" alt="Foto de José Carlos" width="672" height="1043">
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="section section-alt" aria-labelledby="sobre-title">
+            <div class="container narrow">
+                <h2 id="sobre-title" class="title">Sobre Mim</h2>
+                <p>
+                    Olá! Sou o José Carlos, um desenvolvedor Front-end apaixonado por transformar ideias em interfaces modernas, responsivas e de alta performance. Utilizo tecnologias como HTML, CSS e JavaScript para criar experiências digitais incríveis. Como um profissional que valoriza o aprendizado contínuo, estou sempre expandindo meus conhecimentos em áreas complementares, como Inteligência Artificial e Redes de Computadores. Além disso, gosto de conectar a teoria à prática explorando o mercado através de visitas técnicas, o que me dá uma visão mais ampla e inovadora na hora de desenvolver projetos.
+                </p>
+            </div>
+ <section id="cursos" class="section" aria-labelledby="cursos-title">
+    <div class="container">
+        <h2 id="cursos-title" class="title">Meus Cursos</h2>
+
+        <div class="cards">
+            <article class="card">
+                <i class="fa-solid fa-network-wired" aria-hidden="true"></i>
+                <h3>Redes de Computadores</h3>
+                <p class="institution">CEETI Monsenhor Juarez Santos Prata</p>
+            </article>
+
+            <article class="card">
+                <i class="fa-solid fa-computer" aria-hidden="true"></i>
+                <h3>Informática</h3>
+                <p class="institution">Microlins</p>
+            </article>
+
+            <article class="card">
+                <i class="fa-brands fa-python" aria-hidden="true"></i>
+                <h3>Linguagem de Programação Python - Básico</h3>
+                <p class="institution">Fundação Bradesco</p>
+            </article>
+
+            <article class="card">
+                <i class="fa-solid fa-robot" aria-hidden="true"></i>
+                <h3>Prompts de IA</h3>
+                <p class="institution">Fundação Bradesco</p>
+            </article>
+        </div>
+    </div>
+</section>
+
+        <section id="visitas" class="section section-alt" aria-labelledby="visitas-title">
+            <div class="container">
+                <h2 id="visitas-title" class="title">Minhas Visitas</h2>
+
+                <div class="projects">
+                    <article class="project">
+                        <a href="visitas/museu.html" class="project-link" aria-label="Abrir visita técnica ao Museu da Gente Sergipana">
+                            <img src="assets/project1.jpg" alt="Visita técnica ao Museu da Gente Sergipana" width="447" height="447" loading="lazy">
+                            <div class="overlay">
+                                <h3>MUSEU DA GENTE SERGIPANA</h3>
+                                <p>Visita Técnica · Ver fotos</p>
+                            </div>
+                        </a>
+                    </article>
+
+                    <article class="project">
+                        <a href="visitas/cooperflores.html" class="project-link" aria-label="Abrir visita técnica à Cooperflores">
+                            <img src="assets/project2.jpg" alt="Visita técnica à Cooperflores" width="447" height="447" loading="lazy">
+                            <div class="overlay">
+                                <h3>COOPERFLORES</h3>
+                                <p>Visita Técnica · Ver fotos</p>
+                            </div>
+                        </a>
+                    </article>
+
+                    <article class="project">
+                        <a href="visitas/minas-telecom.html" class="project-link" aria-label="Abrir visita técnica à Minas Telecom">
+                            <img src="assets/project3.jpg" alt="Visita técnica à Minas Telecom" width="447" height="447" loading="lazy">
+                            <div class="overlay">
+                                <h3>MINAS TELECOM</h3>
+                                <p>Visita Técnica · Ver fotos</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+     <section id="contato" class="section" aria-labelledby="contato-title">
+    <div class="container">
+        <h2 id="contato-title" class="title">Contato</h2>
+
+    <form id="contact-form" class="contact-form">
+
+        <label for="nome">Nome</label>
+        <input
+            id="nome"
+            name="nome"
+            type="text"
+            placeholder="Seu nome"
+            autocomplete="name"
+            required
+        >
+
+        <label for="email">E-mail</label>
+        <input
+            id="email"
+            name="email"
+            type="email"
+            placeholder="Seu e-mail"
+            autocomplete="email"
+            required
+        >
+
+        <label for="mensagem">Mensagem</label>
+        <textarea
+            id="mensagem"
+            name="mensagem"
+            rows="6"
+            placeholder="Sua mensagem"
+            required
+        ></textarea>
+
+        <button class="btn form-button" type="submit" id="submit-button">
+            Enviar
+        </button>
+
+        <p
+            id="form-status"
+            class="form-status"
+            role="status"
+            aria-live="polite">
+        </p>
+
+    </form>
+</div>
+
+</section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>© 2026 José Carlos - Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- 1. Importa a biblioteca do EmailJS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <!-- 2. Inicializa o EmailJS com a sua conta -->
+    <script type="text/javascript">
+        (function(){
+           emailjs.init({
+             publicKey: "hcRkboJPfM8ZfmivX",
+           });
+        })();
+    </script>
+
+    <!-- 3. Seu script personalizado (deve ficar por último) -->
+    <script src="script.js" defer></script>
+</body>
+</html>
